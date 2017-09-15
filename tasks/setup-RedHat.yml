@@ -5,4 +5,4 @@
     state: "{{ php_packages_state }}"
     enablerepo: "{{ php_enablerepo }}"
   with_items: "{{ php_packages }}"
-  notify: restart webserver
+  # notify: restart webserver
